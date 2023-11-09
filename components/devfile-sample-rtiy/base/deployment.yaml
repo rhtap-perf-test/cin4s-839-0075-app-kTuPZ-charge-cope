@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rtiy
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0075-tenant/cin4s-839-0075-app/devfile-sample-rtiy@sha256:6f714d4959bd575e61cb5e82835d3cf09b2c008abfe1ef1939328b2633bdc2a7
         name: my-nodejs
         ports:
         - containerPort: 3001
